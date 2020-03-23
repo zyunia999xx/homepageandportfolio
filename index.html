@@ -5,25 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zyunia's Portfolio</title>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style_mobile.css">
   <link rel="stylesheet" href="./gallery.css">
   <script type="text/javascript" src="script.js"></script>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   
 </head>
 <body id="home">
-    <div style="background: url(img/side.png) repeat-y 0% 0px;">
-    <div style="background: url(img/side.png) repeat-y 100% 0px;">
+     <div style="background: url(img/side.png) repeat-y 0% 0px; background-size:10%;">
+      <div style="background: url(img/side.png) repeat-y 100% 0px; background-size:10%;">
       
         <header class="headerXD">
           <div class="box box-logo">
-            
-            
             <img class="logo-img" src="img/logo.png" />
-          </div>
-          <div class="sp-nav">
-            <i class="fas fa-bars"></i>
+            <div id="nav-drawer">
+              <input id="nav-input" type="checkbox" class="nav-unshown">
+              <label id="nav-open" for="nav-input"><span></span></label>
+              <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+              <div id="nav-content">
+                <div class="list6"><br><br>
+                  <ul class="box">
+                    <li class="list">
+                      <i class="fas fa-home"></i>
+                      <a href="#home" class="menulink"><p class="bar">Home</p>
+                    </li>
+                    <li class="list">
+                      <i class="fas fa-gamepad"></i>
+                      <a href="#warks" class="menulink"><p class="bar">Warks</p>
+                    </li>
+                    <li class="list">
+                      <i class="fas fa-laptop-code"></i>
+                      <a href="#skills" class="menulink"><p class="bar">Skills</p>
+                    </li>
+                    <li class="list">
+                      <i class="fas fa-id-card"></i>
+                      <a href="#profile" class="menulink"><p class="bar">Profile</p>
+                    </li>
+                    <li class="list">
+                      <i class="fas fa-road"></i>
+                      <a href="#history" class="menulink"><p class="bar">History</p>
+                    </li>
+                    <li class="list">
+                      <a href="https://twitter.com/zyunizyunia" class="menulink"><i class="fab fa-twitter"></i>
+                      <a href="https://www.youtube.com/channel/UCt_VNcw9CTtyuNvgv1WurZQ" class="menulink"><i class="fab fa-youtube"></i>
+                      <a href="https://github.com/zyunia999xx" class="menulink"><i class="fab fa-github"></i>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
           </div>
           <div class="box box-nav">
             
@@ -177,20 +209,20 @@
             <hr class="hakusenn"><br>
             <img class="icon" src="img/icon.png"><br>
             <span class="komidasi">じゅにあ</span>
-            <p class="setumei">静岡県に住む高校一年生。<br>高校入学を機にゲーム開発を始める。<br>将来はゲームを作って生計を立てれたらいいなと思ってる。</p>
+            <p class="setumei">静岡県に住む高校一年生。<br>高校入学を機にゲーム開発を始める。<br>将来はゲームを作って生計を<br>立てれたらいいなと思ってる。</p>
             <br><br><br><br><br><br><br><br>
             <span class="midasi" id="history" >History</span>
             <hr class="hakusenn"><br>
             <span class="komidasi">2003</span><br>
             <p class="setumei">静岡県で誕生</p><br>      
             <span class="komidasi">2015</span><br>
-            <p class="setumei">12歳。PCに初めて触る、初めてMinecraftをプレイする、<br>動画投稿も開始する</p><br> 
+            <p class="setumei">PCに初めて触る、初めてMinecraftをプレイする、<br>動画投稿も開始する</p><br> 
             <span class="komidasi">2016</span><br>
-            <p class="setumei">13歳。Minecraft実況を投稿し続け、チャンネル登録者<br>2000人突破＆総再生数80万回突破</p><br> 
+            <p class="setumei">Minecraft実況を投稿し続け、チャンネル登録者<br>2000人突破＆総再生数80万回突破</p><br> 
             <span class="komidasi">2018</span><br>
-            <p class="setumei">15歳。Minecraftがきっかけでプログラミングに興味を持つ<br>「Skript」で簡単なコーディングを始める</p><br> 
+            <p class="setumei">Minecraftがきっかけでプログラミングに興味を持つ<br>「Skript」で簡単なコーディングを始める</p><br> 
             <span class="komidasi">2019</span><br>
-            <p class="setumei">16歳。中学卒業後、N高等学校に入学。<br>Unityを使用したゲーム開発を始める</p><br> 
+            <p class="setumei">中学卒業後、N高等学校に入学。<br>Unityを使用したゲーム開発を始める</p><br> 
         
       </article>
     </div>
@@ -203,6 +235,7 @@
     <div class="footerInner">
       <small>&copy; copyright 2020 kanekodaimu</small>
     </div>
+    
   </footer>
 </body>
 

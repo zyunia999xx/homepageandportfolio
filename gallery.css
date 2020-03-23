@@ -6,6 +6,19 @@
     border: 5px #fff solid;
     z-index: -1;
 }
+@media screen and (max-width: 640px) {
+	#stage {
+		position: relative;
+		max-width: 50%;
+		margin: 0 auto;
+		overflow: hidden;
+		border: 5px #fff solid;
+		z-index: -1;
+		width: auto;
+  		height: 90pt;
+	}
+}
+	
 
 #photos {
 	position:absolute;

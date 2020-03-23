@@ -5,6 +5,10 @@ body{
   background: #ffd600;
 }
 
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+
 header{
   background: #df1818;
   position: -webkit-sticky;
@@ -34,7 +38,7 @@ header{
 .headerInner,.mainInner{
   color: #fff;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 0px;
   text-align:center
   
 }
@@ -154,7 +158,7 @@ footer{
   left: 95%;
 }
 
-.header-6 {
+.headerXD {
   box-sizing: border-box;
   width: 100%;
   height: 120px;
@@ -263,40 +267,4 @@ footer{
 .jp {
   margin-top: 0.5em;
   font-size: 0.5em;
-}
-
-
-@media screen and (max-width: 480px) {
-  .headerXD {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    padding: 0 0.8em;
-  }
-
-  .box-nav {
-    display: none;
-  }
-
-  .sp-nav {
-    display: block;
-  }
-
-  .box-logo {
-    height: 60px;
-  }
-
-  .logo-img {
-    width: 70px;
-  }
-
-
-  
-
-  
 }
