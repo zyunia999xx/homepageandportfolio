@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zyunia's Portfolio</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./gallery.css">
+  <script type="text/javascript" src="script.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  
+</head>
+<body id="home">
+    <div style="background: url(img/side.png) repeat-y 0% 0px;">
+    <div style="background: url(img/side.png) repeat-y 100% 0px;">
+      
+        <header class="headerXD">
+          <div class="box box-logo">
+            
+            
+            <img class="logo-img" src="img/logo.png" />
+          </div>
+          <div class="sp-nav">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="box box-nav">
+            
+            <ul class="inner-nav">
+              <a class="SNS" href="https://twitter.com/zyunizyunia"><i class="fab fa-twitter"></i>&nbsp;&nbsp;</a>
+          <li class="SNS">
+              <a class="SNS" href="https://www.youtube.com/channel/UCt_VNcw9CTtyuNvgv1WurZQ"><i class="fab fa-youtube"></i>&nbsp;&nbsp;</a>
+          <li class="SNS">
+              <a class="SNS" href="https://github.com/zyunia999xx"><i class="fab fa-github"></i>&nbsp;&nbsp;</a>
+              <li class="menu">
+                  <a href="#home" class="menulink"><p class="en">Home</p>
+                  <p class="jp">ホーム</p></a>
+                </li>
+              <li class="menu">
+                <a href="#warks" class="menulink"><p class="en">Warks</p>
+                <p class="jp">ワーク</p></a>
+              </li>
+              <li class="menu">
+                  <a href="#skills" class="menulink"><p class="en">Skills</p>
+                  <p class="jp">スキル</p></a>
+                </li>
+                <li class="menu">
+                    <a href="#profile" class="menulink"><p class="en">Profile</p>
+                    <p class="jp">プロフィール</p></a>
+                  </li>
+                  <li class="menu">
+                      <a href="#history" class="menulink"><p class="en">History</p>
+                      <p class="jp">ヒストリー</p></a>
+                    </li>
+            </ul>
+          </div>
+        </header>
+  <main>
+    <div class="mainInner">
+      <article>
+        <section>
+          <br><br>
+            <span class="midasi" id="warks" >Warks</span>
+            <hr class="hakusenn">
+            <span class="komidasi">Game</span>
+            <hr class="hakusenn2">
+            <h2>Zyunia's Original Game</h2>
+            <img class="fishfish" src="img/fishfish.jpg" />
+            <h2><a class="white" href="https://unityroom.com/games/fishfish" >FishFish</a></h2>
+            <p class="setumei">暗い水中で魚が天敵を避けながら仲間を探すゲーム。<br>初めてUnityを使用して作ったゲームで、<br> 1週間ゲームジャムお題「さがす」の投稿作品。</p>
+            <div class="setumei" onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+                <a style="cursor:pointer;">▼ 詳細(クリックで表示)</a>
+                </div>
+                <div id="open" style="display:none;clear:both;">
+                  <p class="setumei"><u>制作期間:</u><br>2019/10/16 ～ 2019/10/20<br><u>制作規模：</u><br>個人(サウンドだけ友人に頼みました)<br><u>制作環境:</u><br>Unity,Piskel</p>
+                
+                </div>
+            <br><br><hr class="hakusenn2"><br><br>
+            <img class="fishfish" src="img/hatena.png" />
+            <h2><a class="white" href="" >？？？</a></h2>
+            <p class="setumei">制作中。U-18日本ゲーム大賞とUnityインターハイに出品予定。</p>
+            <div class="setumei" onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';">
+                <a style="cursor:pointer;">▼ 詳細(クリックで表示)</a>
+                </div>
+                <div id="open2" style="display:none;clear:both;">
+                  <p class="setumei"><u>制作期間:</u><br>2020/3/1 ～ <br><u>制作規模：</u><br>個人<br><u>制作環境:</u><br>Unity,Asprite</p>
+                
+                </div>
+            
+            <hr class="hakusenn">
+            <br><br><br><br><br><br>
+            <span class="komidasi">Art</span>
+            <hr class="hakusenn2">
+            <h2>Zyunia's Gallery</h2>
+            <div id="stage">
+                <input type="radio" id="back1" name="gal">
+                <input type="radio" id="back2" name="gal">
+                <input type="radio" id="back3" name="gal">
+                <input type="radio" id="back4" name="gal">
+                <input type="radio" id="back5" name="gal">
+                <input type="radio" id="next1" name="gal">
+                <input type="radio" id="next2" name="gal">
+                <input type="radio" id="next3" name="gal">
+                <input type="radio" id="next4" name="gal">
+                <input type="radio" id="next5" name="gal">
+              <div id="photos">
+                  <div id="photo0" class="pic"><img src="img/image5.png">
+                  </div>
+                  <div id="photo1" class="pic"><img src="img/image1.png">
+                  </div>
+                  <div id="photo2" class="pic"><img src="img/image2.png">
+                  </div>
+                  <div id="photo3" class="pic"><img src="img/image3.png">       
+                  </div>
+                  <div id="photo4" class="pic"><img src="img/image4.png">
+                  </div>
+                  <div id="photo5" class="pic"><img src="img/image5.png">
+                  </div>
+                  <div id="photo6" class="pic"><img src="img/image1.png">
+                  </div>
+                </div>
+               <div style="padding:28%;"></div>
+            </div><br><br><br><br><br><br>
+            <span class="komidasi">Minecraft Building</span>
+            <hr class="hakusenn2">
+            <h2>Zyunia's Minecraft Building</h2>
+            <div id="stage">
+                <input type="radio" id="back1" name="gal">
+                <input type="radio" id="back2" name="gal">
+                <input type="radio" id="back3" name="gal">
+                <input type="radio" id="back4" name="gal">
+                <input type="radio" id="back5" name="gal">
+                <input type="radio" id="next1" name="gal">
+                <input type="radio" id="next2" name="gal">
+                <input type="radio" id="next3" name="gal">
+                <input type="radio" id="next4" name="gal">
+                <input type="radio" id="next5" name="gal">
+              <div id="photos">
+                  <div id="photo0" class="pic"><img src="img/image10.png">
+                  </div>
+                  <div id="photo1" class="pic"><img src="img/image6.png">
+                  </div>
+                  <div id="photo2" class="pic"><img src="img/image7.png">
+                  </div>
+                  <div id="photo3" class="pic"><img src="img/image8.png">       
+                  </div>
+                  <div id="photo4" class="pic"><img src="img/image9.png">
+                  </div>
+                  <div id="photo5" class="pic"><img src="img/image10.png">
+                  </div>
+                  <div id="photo6" class="pic"><img src="img/image6.png">
+                  </div>
+                </div>
+               <div style="padding:28%;"></div>
+            </div>
+            <br><br><br><br><br><br><br><br>
+            <span class="midasi" id="skills" >Skills</span>
+            <hr class="hakusenn">
+            <span class="komidasi">Programming</span>
+            <hr class="hakusenn3"><br>
+            <span class="komidasi">Unity C#<br>■■■□□□□□□□</span>
+            <p class="setumei">簡単な2Dゲームが作れる程度</p><br>
+            <span class="komidasi">Java<br>■■■□□□□□□□</span><br>
+            <p class="setumei">簡単なGUIアプリケーションが作れる程度</p><br>
+            <span class="komidasi">Python<br>■■□□□□□□□□</span>
+            <p class="setumei">マルコフ連鎖を利用したDiscordBotが作れる程度</p><br><br>
+            <span class="komidasi">Another</span>
+            <hr class="hakusenn3"><br>
+            <span class="komidasi">ドット絵<br>■■■□□□□□□□</span><br><br>
+            <span class="komidasi">Design<br>■■□□□□□□□□</span><br>
+            <span class="komidasi">Movie Edit<br>■■□□□□□□□□</span>
+            <p class="setumei">Aviutl,PremierePro,YMM4を使用可能<br>YouTubeチャンネル登録者数2600人超</p><br>
+
+            <br><br><br><br><br><br><br><br>
+            <span class="midasi" id="profile" >Profile</span>
+            <hr class="hakusenn"><br>
+            <img class="icon" src="img/icon.png"><br>
+            <span class="komidasi">じゅにあ</span>
+            <p class="setumei">静岡県に住む高校一年生。<br>高校入学を機にゲーム開発を始める。<br>将来はゲームを作って生計を立てれたらいいなと思ってる。</p>
+            <br><br><br><br><br><br><br><br>
+            <span class="midasi" id="history" >History</span>
+            <hr class="hakusenn"><br>
+            <span class="komidasi">2003</span><br>
+            <p class="setumei">静岡県で誕生</p><br>      
+            <span class="komidasi">2015</span><br>
+            <p class="setumei">12歳。PCに初めて触る、初めてMinecraftをプレイする、<br>動画投稿も開始する</p><br> 
+            <span class="komidasi">2016</span><br>
+            <p class="setumei">13歳。Minecraft実況を投稿し続け、チャンネル登録者<br>2000人突破＆総再生数80万回突破</p><br> 
+            <span class="komidasi">2018</span><br>
+            <p class="setumei">15歳。Minecraftがきっかけでプログラミングに興味を持つ<br>「Skript」で簡単なコーディングを始める</p><br> 
+            <span class="komidasi">2019</span><br>
+            <p class="setumei">16歳。中学卒業後、N高等学校に入学。<br>Unityを使用したゲーム開発を始める</p><br> 
+        
+      </article>
+    </div>
+  </main>
+  
+  
+  
+
+  <footer>
+    <div class="footerInner">
+      <small>&copy; copyright 2020 kanekodaimu</small>
+    </div>
+  </footer>
+</body>
+
+</html>

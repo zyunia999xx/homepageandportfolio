@@ -1,0 +1,227 @@
+#stage {
+	position: relative;
+	max-width: 40%;
+	margin: 0 auto;
+    overflow: hidden;
+    border: 5px #fff solid;
+    z-index: -1;
+}
+
+#photos {
+	position:absolute;
+	top:0;
+	width:100%;
+	animation: imgPassToLeft0 20s infinite;
+	-webkit-animation: imgPassToLeft0 20s infinite;
+}
+
+#photo0 { left:  0%; }
+#photo1 { left:100%; } 
+#photo2 { left:200%; }
+#photo3 { left:300%; }
+#photo4 { left:400%; }
+#photo5 { left:500%; }
+#photo6 { left:600%; }
+.pic { position:absolute;top:0;width:110%; }
+
+.pic img { width:100%; }
+
+@keyframes imgPassToLeft0 {
+	0%  { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@-webkit-keyframes imgPassToLeft0 {
+	0%  { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@keyframes imgPassToLeft1 {
+	0% { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@-webkit-keyframes imgPassToLeft1 {
+	0% { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@keyframes imgPassToLeft2 {
+	0% { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@keyframes imgPassToLeft3 {
+	0% { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@keyframes imgPassToLeft4 {
+	0% { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@keyframes imgPassToLeft5 {
+	0% { left:-100%; }
+	16% { left:-100%; }
+	20% { left:-200%; }
+	36% { left:-200%; }
+	40% { left:-300%; }
+	56% { left:-300%; }
+	60% { left:-400%; }
+	76% { left:-400%; }
+	80% { left:-500%; }
+	96% { left:-500%; }
+	100% { left:-600%; }
+}
+@keyframes imgPassToRight1 {
+	0% { left: 0%; }
+	4% { left: -100%; }
+	20% { left:-100%; }
+	24% { left:-200%; }
+	40% { left:-200%; }
+	44% { left:-300%; }
+	60% { left:-300%; }
+	64% { left:-400%; }
+	80% { left:-400%; }
+	84% { left:-500%; }
+	100% { left:-500%; }
+}
+@keyframes imgPassToRight2 {
+	0% { left: -100%; }
+	4% { left: -200%; }
+	20% { left:-200%; }
+	24% { left:-300%; }
+	40% { left:-300%; }
+	44% { left:-400%; }
+	60% { left:-400%; }
+	64% { left:-500%; }
+	80% { left:-500%; }
+	83.999% { left:-600%; }
+	84% { left:-100%; }
+	100% { left:-100%; }
+}
+@keyframes imgPassToRight3 {
+	0% { left: -200%; }
+	4% { left: -300%; }
+	20% { left:-300%; }
+	24% { left:-400%; }
+	40% { left:-400%; }
+	44% { left:-500%; }
+	60% { left:-500%; }
+	63.999% { left:-600%; }
+	64% { left:-100%; }
+	80% { left:-100%; }
+	84% { left:-200%; }
+	100% { left:-200%; }
+}
+@keyframes imgPassToRight4 {
+	0% { left: -300%; }
+	4% { left: -400%; }
+	20% { left:-400%; }
+	24% { left:-500%; }
+	40% { left:-500%; }
+	43.999% { left:-600%; }
+	44% { left:-100%; }
+	60% { left:-100%; }
+	64% { left:-200%; }
+	80% { left:-200%; }
+	84% { left:-300%; }
+	100% { left:-300%; }
+}
+@keyframes imgPassToRight5 {
+	0% { left: -400%; }
+	4% { left: -500%; }
+	20% { left:-500%; }
+	23.999% { left:-600%; }
+	24% { left:-100%; }
+	40% { left:-100%; }
+	44% { left:-200%; }
+	60% { left:-200%; }
+	64% { left:-300%; }
+	80% { left:-300%; }
+	84% { left:-400%; }
+	100% { left:-400%; }
+}
+@keyframes toRight1 {
+	0% { left:-100%; }
+	19.999% { left:0%; }
+	20% { left: -500%; }
+	100% { left:-500%; display:none;}
+}
+@keyframes toRight2 {
+	0% { left:-200%; }
+	20% { left: -100%; }
+	100% { left:-100%; display:none;}
+}
+@keyframes toRight3 {
+	0% { left:-300%; }
+	20% { left: -200%; }
+	100% { left:-200%; display:none;}
+}
+@keyframes toRight4 {
+	0% { left:-400%; }
+	20% { left: -300%; }
+	100% { left: -300%; display:none;}
+}
+@keyframes toRight5 {
+	0% { left:-500%; }
+	20% { left: -400%; }
+	100% { left: -400%; display:none;}
+}
