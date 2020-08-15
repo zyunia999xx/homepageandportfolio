@@ -1,3 +1,6 @@
+
+
+
 body{
   font-family:'MyFont';
   letter-spacing : 2px;
@@ -30,6 +33,19 @@ header{
   width: 12%;
   border: 5px #fff solid
 }
+
+
+video{
+  position: fixed;
+  top: 0;
+  bottom:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -9999;
+}
+
+
+
 
 
 
