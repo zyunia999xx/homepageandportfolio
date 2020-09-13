@@ -46,6 +46,10 @@
       width: 70px;
     }
 
+    video{
+      display:none;
+    }
+
     #nav-drawer {
         position: absolute;
         right: 10px;
@@ -93,7 +97,7 @@
         transition: .3s ease-in-out;
       }
       
-      /*中身*/
+
       #nav-content {
         overflow: auto;
         position: fixed;
