@@ -1,4 +1,6 @@
 @media screen and (max-width: 640px) {
+
+
  
     img{
     max-width: 100%;
@@ -9,9 +11,9 @@
         .pc { display: none !important; }
         .sp { display: block !important; }
         }
-
     .setumei{
-    font-size      : 7pt;
+    font-size      : 9pt;
+    
         }
     .komidasi{
     font-size      : 10pt; 
